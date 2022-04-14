@@ -5,7 +5,8 @@ int main()
 	printf("enter the range to check for prime numbers: ");
 	scanf("%d%d",&l,&u);
 	printf("the prime numbers are:\n");
-	for(i=l;i<=u;i++){
+	for(i=l;i<=u;i++)
+	{
 		count = 0;
 		for(j=1;j <=i;j++)
 		{
@@ -14,7 +15,8 @@ int main()
 				count++;
 			}
 		}
-		if(count == 2){
+		if(count == 2)
+		{
 			printf("%d\t",i);
 		}
 	}
